@@ -1,0 +1,35 @@
+@model IEnumerable<SimpalForm.Models.Button>
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <div class="row">
+        <div class="col-md-12 ">
+
+            <table id="myTable" class="table table-bordered">
+                <thead>
+                    <tr class="text-center">
+                        <th id="test">Name</th>
+                        <th>Email</th>
+                        <th>Adress</th>
+                        <th>Distric</th>
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+
+            </table>
+
+
+        </div>
+
+    </div>
+
+
+<script src="~/js/edit.js"></script>
+<script src="~/js/jquery-3.5.1.js"></script>
+@*<script src="~/js/dataTables.select.min.js"></script>*@
+@*<script src="~/js/dataTables.editor.min.js"></script>*@
+<script src="~/js/jquery.dataTables.min.js"></script>
+
+<script src="~/js/dataTables.buttons.min.js"></script>
